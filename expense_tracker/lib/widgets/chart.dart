@@ -69,9 +69,7 @@ class Chart extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Row(
-            children: buckets
-                .map(
-                  (bucket) => Expanded(
+            children: buckets.map((bucket) => Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 4),
                   child: Icon(
@@ -85,8 +83,7 @@ class Chart extends StatelessWidget {
                   ),
                 ),
               ),
-            )
-                .toList(),
+            ).toList(),
           )
         ],
       ),
