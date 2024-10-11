@@ -4,6 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:akshit_tut/widgets/button.dart';
 import 'package:akshit_tut/widgets/list_grid.dart';
 import 'package:akshit_tut/widgets/snackbar.dart';
+import 'package:akshit_tut/widgets/animatedtext.dart';
+import 'package:akshit_tut/widgets/bottomnav.dart';
+import 'package:akshit_tut/widgets/mydropdown.dart';
+import 'package:akshit_tut/widgets/form.dart';
+import 'package:akshit_tut/widgets/tabar.dart';
+import 'package:akshit_tut/widgets/imagepicker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +27,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primarySwatch: Colors.purple,
       ),
-      home: MyDrawerWidget(),
+      home: MyImagePickerWidget(),
     );
   }
 }
